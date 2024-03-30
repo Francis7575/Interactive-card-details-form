@@ -1,0 +1,26 @@
+.secondScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5.12rem;
+}
+
+.completeImage {
+    margin-bottom: 2.18rem;
+}
+
+.thankYou {
+    color: #21092F;
+    font-size: 1.75rem;
+    letter-spacing: .21em;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.paragraph {
+    color: #8F8694;
+    font-weight: 500;
+    font-size: 1.12rem;
+    margin-bottom: 3rem;
+}
