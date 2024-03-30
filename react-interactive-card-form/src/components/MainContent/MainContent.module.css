@@ -1,0 +1,240 @@
+.desktopImage {
+    display: none;
+}
+
+.mobileImage {
+    width: 100%;
+    height: 15rem;
+    display: block;
+}
+
+.cardWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.cardContainer {
+    position: relative;
+}
+
+.cardFront,
+.cardBack {
+    max-width: 17.81rem;
+    display: block;
+    position: absolute;
+}
+
+.cardFront {
+    top: -126px;
+    right: -106px;
+    z-index: 3;
+    padding-left: 1rem;
+}
+
+.cardBack {
+    top: -209px;
+    left: -106px;
+    padding-right: 1rem;
+    z-index: 2;
+}
+
+.cardLogo {
+    display: block;
+    max-width: 3.37rem;
+    position: absolute;
+    top: -108px;
+    right: 89px;
+    z-index: 4;
+}
+
+.cardholderNameValue,
+.cardNumberValue,
+.monthValue,
+.yearValue,
+.cvcValue {
+    position: absolute;
+    color: #fff;
+    z-index: 4;
+    white-space: nowrap;
+}
+
+.cardholderNameValue {
+    left: -144px;
+    top: -10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.cardNumberValue {
+    top: -49px;
+    left: -144px;
+    font-weight: 500;
+    letter-spacing: .13rem;
+}
+
+.cardholderNameValue,
+.monthValue,
+.yearValue,
+.cvcValue {
+    font-size: .6rem;
+    font-weight: 500;
+}
+
+.monthValue {
+    top: -10px;
+    left: 65px;
+}
+
+.yearValue {
+    top: -10px;
+    left: 85px;
+}
+
+.cvcValue {
+    top: -143px;
+    left: 106px;
+}
+
+@media (min-width: 64em) {
+    .mainContainer {
+        display: flex;
+        justify-content: center;
+        flex-basis: 100%;
+    }
+
+    .mobileImage {
+        display: none;
+    }
+
+    .desktopImage {
+        max-width: 100%;
+        display: block;
+        min-height: 100vh;
+    }
+
+    .cardWrap {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .cardFront,
+    .cardBack {
+        max-width: 20.93rem;
+    }
+
+    .cardFront {
+        top: 122px;
+        right: 118px;
+    }
+
+    .cardBack {
+        top: 340px;
+        left: -391px;
+    }
+
+    .cardLogo {
+        top: 143px;
+        right: 357px;
+    }
+
+    .cardholderNameValue,
+    .monthValue,
+    .yearValue,
+    .cvcValue {
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    .cardholderNameValue,
+    .monthValue,
+    .yearValue {
+        top: 265px;
+    }
+
+    .cardholderNameValue {
+        left: -415px;
+    }
+
+    .cardNumberValue {
+        top: 233px;
+        left: -415px;
+    }
+
+    .monthValue {
+        left: -185px;
+    }
+
+    .yearValue {
+        left: -159px;
+    }
+
+    .cvcValue {
+        top: 418px;
+        left: -136px;
+    }
+
+    main {
+        display: flex;
+    }
+}
+
+@media(min-width: 90em) {
+
+    .cardFront,
+    .cardBack {
+        max-width: 27.93rem;
+    }
+
+    .cardFront {
+        right: 265px;
+    }
+
+    .cardBack {
+        top: 404px;
+        left: -607px;
+    }
+
+    .cardLogo {
+        max-width: 5.25rem;
+        right: 579px;
+    }
+
+    .cardholderNameValue,
+    .monthValue,
+    .yearValue,
+    .cvcValue {
+        font-size: .87rem;
+        letter-spacing: .12em;
+    }
+
+    .cardNumberValue {
+        top: 256px;
+        left: -661px;
+        font-size: 1.5rem;
+        letter-spacing: .21em;
+    }
+
+    .cardholderNameValue,
+    .monthValue,
+    .yearValue {
+        top: 315px;
+    }
+
+    .cardholderNameValue {
+        left: -661px;
+    }
+
+    .monthValue {
+        left: -340px;
+    }
+
+    .yearValue {
+        left: -300px;
+    }
+
+    .cvcValue {
+        top: 509px;
+        left: -262px;
+    }
+}
